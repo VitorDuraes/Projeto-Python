@@ -47,6 +47,6 @@ tabela_lojas = tabela_lojas [['Faturamento']]
 print(tabela_lojas)
 
 # Criar um gráfico/dashboard
-#grafico = px.bar(tabela_lojas, x=tabela_lojas.index , y= 'Faturamento')
-#grafico.show()
+grafico = px.bar(tabela_lojas, x=tabela_lojas.index , y= 'Faturamento')
+grafico.show()
 
